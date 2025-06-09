@@ -21,6 +21,8 @@
 #define RIGHT_MOTOR_1 1
 #define RIGHT_MOTOR_2 2
 #define RIGHT_MOTOR_3 3
+#define INTAKE_LEFT_PISTON_PORT 'A' // port A for the left intake piston
+#define INTAKE_RIGHT_PISTON_PORT 'B' // port B for the right intake piston
 #define INTAKE_FLYWHEEL_MOTOR 14
 #define INTAKE_PUSHER_MOTOR 15 // this motor controls the chain that outtakes the ball
 

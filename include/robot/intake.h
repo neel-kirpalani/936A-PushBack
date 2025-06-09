@@ -11,28 +11,35 @@ public:
     Intake();
     void init();
     
-    // Flywheel controls
-    void spinFlywheel(bool forward);  // Control intake flywheels
+    // flywheel controls
+    void spinFlywheel(bool forward);  
     void stopFlywheel();
     void toggleFlywheel();
     
-    // Chain pusher controls
-    void spinPusher(bool forward);    // Control chain pusher
+    // chain pusher controls
+    void spinPusher(bool forward);   
     void stopPusher();
     void togglePusher();
-    
-    void update();
+
+    // piston controls
+    void toggleLeftPiston();
+    bool isLeftPistonExtended() const; 
+    void toggleRightPiston();
+    bool isRightPistonExtended() const;
 
 private:
-    // Flywheel state
     bool flywheel_running;
     bool flywheel_forward;
     pros::Motor* flywheel_motor;
 
-    // Chain pusher state
     bool pusher_running;
     bool pusher_forward;
     pros::Motor* pusher_motor;
+
+    bool left_piston_extended;
+    pros::ADIDigitalOut* left_piston;
+    bool right_piston_extended;
+    pros::ADIDigitalOut* right_piston;
 };
 
 }  // namespace subsystems

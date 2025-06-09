@@ -1,7 +1,7 @@
 {
   "py/object": "pros.conductor.project.Project",
   "py/state": {
-    "project_name": "HighStakesVex",
+    "project_name": "PushBackVex",
     "target": "v5",
     "templates": {
       "LemLib": {
@@ -351,8 +351,8 @@
       }
     },
     "upload_options": {
-      "description": "936B VEX",
-      "icon": "planet"
+      "description": "936A VEX",
+      "icon": "pizza"
     },
     "use_early_access": false
   }
