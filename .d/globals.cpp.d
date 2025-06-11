@@ -44,7 +44,8 @@ bin/globals.cpp.o: src/globals.cpp include/globals.h \
  include/display/lv_draw/lv_draw_line.h \
  include/display/lv_draw/lv_draw_triangle.h \
  include/display/lv_objx/lv_page.h include/display/lv_objx/lv_page.h \
- include/display/lv_objx/lv_btnm.h include/robot/auton.h
+ include/display/lv_objx/lv_btnm.h include/robot/auton.h \
+ include/robot/intake.h
 include/globals.h:
 include/pros/rtos.hpp:
 include/pros/rtos.h:
@@ -135,3 +136,4 @@ include/display/lv_objx/lv_page.h:
 include/display/lv_objx/lv_page.h:
 include/display/lv_objx/lv_btnm.h:
 include/robot/auton.h:
+include/robot/intake.h:

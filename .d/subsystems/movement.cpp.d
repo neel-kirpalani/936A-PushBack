@@ -44,7 +44,8 @@ bin/subsystems/movement.cpp.o: src/subsystems/movement.cpp \
  include/display/lv_draw/lv_draw_line.h \
  include/display/lv_draw/lv_draw_triangle.h \
  include/display/lv_objx/lv_page.h include/display/lv_objx/lv_page.h \
- include/display/lv_objx/lv_btnm.h include/robot/auton.h
+ include/display/lv_objx/lv_btnm.h include/robot/auton.h \
+ include/robot/intake.h
 include/robot/movement.h:
 include/pros/motors.hpp:
 include/pros/motors.h:
@@ -136,3 +137,4 @@ include/display/lv_objx/lv_page.h:
 include/display/lv_objx/lv_page.h:
 include/display/lv_objx/lv_btnm.h:
 include/robot/auton.h:
+include/robot/intake.h:

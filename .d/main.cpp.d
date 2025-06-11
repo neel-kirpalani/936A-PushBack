@@ -89,7 +89,8 @@ bin/main.cpp.o: src/main.cpp include/main.h include/api.h \
  include/lemlib/logger/telemetrySink.hpp include/pros/misc.hpp \
  include/robot/selector.h include/pros/screen.hpp \
  include/display/lv_objx/lv_tabview.h include/display/lv_objx/lv_btnm.h \
- include/robot/auton.h include/robot/auton.h include/globals.h
+ include/robot/auton.h include/robot/auton.h include/globals.h \
+ include/robot/intake.h
 include/main.h:
 include/api.h:
 include/pros/adi.h:
@@ -275,3 +276,4 @@ include/display/lv_objx/lv_btnm.h:
 include/robot/auton.h:
 include/robot/auton.h:
 include/globals.h:
+include/robot/intake.h:

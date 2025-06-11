@@ -3,6 +3,7 @@
 
 #include "pros/motors.hpp"
 #include "pros/misc.hpp"
+#include "pros/adi.hpp"
 
 namespace subsystems {
 

@@ -1,25 +1,26 @@
-bin/subsystems/auton.cpp.o: src/subsystems/auton.cpp \
- include/robot/auton.h include/lemlib/api.hpp include/lemlib/pid.hpp \
- include/lemlib/pose.hpp include/lemlib/util.hpp \
- include/lemlib/chassis/chassis.hpp include/pros/rtos.hpp \
- include/pros/rtos.h include/pros/motors.hpp include/pros/motors.h \
- include/pros/imu.hpp include/pros/imu.h include/lemlib/asset.hpp \
- include/lemlib/chassis/trackingWheel.hpp include/pros/adi.hpp \
- include/pros/adi.h include/pros/rotation.hpp include/pros/rotation.h \
- include/lemlib/exitcondition.hpp include/lemlib/driveCurve.hpp \
- include/lemlib/logger/logger.hpp include/fmt/core.h include/fmt/format.h \
- include/fmt/core.h include/fmt/format-inl.h \
- include/lemlib/logger/baseSink.hpp include/fmt/args.h \
- include/lemlib/logger/message.hpp include/lemlib/logger/infoSink.hpp \
- include/lemlib/logger/telemetrySink.hpp include/globals.h \
- include/pros/rtos.hpp include/pros/misc.hpp include/pros/misc.h \
+bin/subsystems/intake.cpp.o: src/subsystems/intake.cpp \
+ include/robot/intake.h include/pros/motors.hpp include/pros/motors.h \
+ include/pros/rtos.hpp include/pros/rtos.h include/pros/misc.hpp \
+ include/pros/misc.h include/pros/adi.hpp include/pros/adi.h \
+ include/globals.h include/pros/rtos.hpp include/pros/misc.hpp \
  include/pros/motors.hpp include/pros/adi.hpp include/pros/rotation.hpp \
- include/pros/imu.hpp include/robot/movement.h include/pros/misc.hpp \
- include/robot/selector.h include/pros/screen.hpp include/pros/screen.h \
- include/pros/colors.h include/display/lv_core/lv_obj.h \
- include/display/lv_conf.h include/display/lv_conf_checker.h \
- include/display/lv_core/lv_style.h include/display/lv_misc/lv_color.h \
- include/display/lv_misc/lv_area.h include/display/lv_misc/lv_font.h \
+ include/pros/rotation.h include/pros/imu.hpp include/pros/imu.h \
+ include/robot/movement.h include/lemlib/api.hpp include/lemlib/pid.hpp \
+ include/lemlib/pose.hpp include/lemlib/util.hpp \
+ include/lemlib/chassis/chassis.hpp include/pros/imu.hpp \
+ include/lemlib/asset.hpp include/lemlib/chassis/trackingWheel.hpp \
+ include/pros/rotation.hpp include/lemlib/exitcondition.hpp \
+ include/lemlib/driveCurve.hpp include/lemlib/logger/logger.hpp \
+ include/fmt/core.h include/fmt/format.h include/fmt/core.h \
+ include/fmt/format-inl.h include/lemlib/logger/baseSink.hpp \
+ include/fmt/args.h include/lemlib/logger/message.hpp \
+ include/lemlib/logger/infoSink.hpp \
+ include/lemlib/logger/telemetrySink.hpp include/robot/selector.h \
+ include/pros/screen.hpp include/pros/screen.h include/pros/colors.h \
+ include/display/lv_core/lv_obj.h include/display/lv_conf.h \
+ include/display/lv_conf_checker.h include/display/lv_core/lv_style.h \
+ include/display/lv_misc/lv_color.h include/display/lv_misc/lv_area.h \
+ include/display/lv_misc/lv_font.h \
  include/display/lv_misc/lv_symbol_def.h \
  include/display/lv_fonts/lv_font_builtin.h \
  include/display/lv_misc/lv_anim.h include/display/lv_misc/lv_mem.h \
@@ -44,25 +45,36 @@ bin/subsystems/auton.cpp.o: src/subsystems/auton.cpp \
  include/display/lv_draw/lv_draw_line.h \
  include/display/lv_draw/lv_draw_triangle.h \
  include/display/lv_objx/lv_page.h include/display/lv_objx/lv_page.h \
- include/display/lv_objx/lv_btnm.h include/robot/intake.h
-include/robot/auton.h:
+ include/display/lv_objx/lv_btnm.h include/robot/auton.h \
+ include/robot/intake.h
+include/robot/intake.h:
+include/pros/motors.hpp:
+include/pros/motors.h:
+include/pros/rtos.hpp:
+include/pros/rtos.h:
+include/pros/misc.hpp:
+include/pros/misc.h:
+include/pros/adi.hpp:
+include/pros/adi.h:
+include/globals.h:
+include/pros/rtos.hpp:
+include/pros/misc.hpp:
+include/pros/motors.hpp:
+include/pros/adi.hpp:
+include/pros/rotation.hpp:
+include/pros/rotation.h:
+include/pros/imu.hpp:
+include/pros/imu.h:
+include/robot/movement.h:
 include/lemlib/api.hpp:
 include/lemlib/pid.hpp:
 include/lemlib/pose.hpp:
 include/lemlib/util.hpp:
 include/lemlib/chassis/chassis.hpp:
-include/pros/rtos.hpp:
-include/pros/rtos.h:
-include/pros/motors.hpp:
-include/pros/motors.h:
 include/pros/imu.hpp:
-include/pros/imu.h:
 include/lemlib/asset.hpp:
 include/lemlib/chassis/trackingWheel.hpp:
-include/pros/adi.hpp:
-include/pros/adi.h:
 include/pros/rotation.hpp:
-include/pros/rotation.h:
 include/lemlib/exitcondition.hpp:
 include/lemlib/driveCurve.hpp:
 include/lemlib/logger/logger.hpp:
@@ -75,16 +87,6 @@ include/fmt/args.h:
 include/lemlib/logger/message.hpp:
 include/lemlib/logger/infoSink.hpp:
 include/lemlib/logger/telemetrySink.hpp:
-include/globals.h:
-include/pros/rtos.hpp:
-include/pros/misc.hpp:
-include/pros/misc.h:
-include/pros/motors.hpp:
-include/pros/adi.hpp:
-include/pros/rotation.hpp:
-include/pros/imu.hpp:
-include/robot/movement.h:
-include/pros/misc.hpp:
 include/robot/selector.h:
 include/pros/screen.hpp:
 include/pros/screen.h:
@@ -135,4 +137,5 @@ include/display/lv_draw/lv_draw_triangle.h:
 include/display/lv_objx/lv_page.h:
 include/display/lv_objx/lv_page.h:
 include/display/lv_objx/lv_btnm.h:
+include/robot/auton.h:
 include/robot/intake.h:
